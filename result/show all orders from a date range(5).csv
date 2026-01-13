@@ -1,0 +1,11 @@
+order_id,r_name,f_name,amount,date
+1001,Dominos,Non-veg Pizza,550,5/10/2022
+1001,Dominos,Choco Lava cake,550,5/10/2022
+1002,KFC,Chicken Wings,415,5/26/2022
+1002,KFC,Choco Lava cake,415,5/26/2022
+1003,Box8,Rice Meal,240,6/15/2022
+1003,Box8,Choco Lava cake,240,6/15/2022
+1004,Box8,Rice Meal,240,6/29/2022
+1004,Box8,Choco Lava cake,240,6/29/2022
+1005,Box8,Roti meal,220,7/10/2022
+1005,Box8,Choco Lava cake,220,7/10/2022

@@ -1,0 +1,16 @@
+#Customers Favorite food 
+WITH fav_food_counts AS (
+    SELECT o.user_id, od.f_id, COUNT(*) as frequency
+    FROM orders o
+    JOIN order_details od ON o.order_id = od.order_id
+    GROUP BY o.user_id, od.f_id
+)
+SELECT u.name, f.f_name, t1.frequency
+FROM fav_food_counts t1
+JOIN users u ON t1.user_id = u.user_id
+JOIN food f ON t1.f_id = f.f_id
+WHERE t1.frequency = (
+    SELECT MAX(frequency) 
+    FROM fav_food_counts t2 
+    WHERE t2.user_id = t1.user_id
+);

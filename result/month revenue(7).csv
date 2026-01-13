@@ -1,0 +1,4 @@
+month,revenue,prev_month_revenue,growth_pct
+2022-05,965,NULL,NULL
+2022-06,1960,965,103.1088
+2022-07,1410,1960,-28.0612
