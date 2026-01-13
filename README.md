@@ -24,7 +24,7 @@ The database consists of the following tables:
 1. Run the script 'schema.sql' to create the database and tables.
 2. Run 'analysis_queries.sql' to view the solutions to the case study questions.
 
-##Insights 
+## Insights 
 Based on the data analytics, the following trends were identified.
 1. **Revenue Volatility:** The platform saw massive growth in June 2022, with a **103% increase** in revenue compared to May ((₹965 → ₹1960).
     * However, July saw a correction with a **28% drop** in revenue, suggesting a need for customer retention strategies after the initial surge.
